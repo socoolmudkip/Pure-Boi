@@ -1,0 +1,8 @@
+{
+“name”: “Pure Boi”,
+“version”: “1.0.0”,
+“description”: “The Purest of Bois sent out to spread the word of Quagsire”,
+“main”: “bot.js”,
+“author”: “QuagsireKing”,
+“dependencies”: {}
+}
