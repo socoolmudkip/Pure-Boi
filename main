@@ -156,11 +156,33 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
         args = args.splice(1);
         switch(cmd) {
+            // .b
+            case 'b':
+                bot.sendMessage({
+                    to: channelID,
+                    message: ':b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b::b:'
+                });
+            break;
+            // Just add any case commands if you want to..
+         }
+        args = args.splice(1);
+        switch(cmd) {
+            // .smash
+            case 'smash':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Melee is the best Super Smash Bros Game, But Project M and Ultimate are definetly close contenders'
+                });
+            break;
+            // Just add any case commands if you want to..
+         }
+        args = args.splice(1);
+        switch(cmd) {
             // .help
             case 'help':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'here's a list of commands; .help, .zephyr, .incredible, .naveen, .bestfighter, .bestpokemon, .starter, .bayo, .catdog, .ice, .knack, .quagsire'
+                    message: 'here's a list of commands; .help, .zephyr, .incredible, .naveen, .bestfighter, .bestpokemon, .starter, .bayo, .catdog, .ice, .knack, .quagsire, .b, .smash'
                 });
             break;
             // Just add any case commands if you want to..
